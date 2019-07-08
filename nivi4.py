@@ -1,7 +1,7 @@
 sss=input()
 ll=[]
 for i in range(0,len(sss)):
-    for j in range(i+2,len(ss)+1):
+    for j in range(i+2,len(sss)+1):
         aa=sss[i:j]
         if aa==aa[::-1]:
             ll.append(aa)
